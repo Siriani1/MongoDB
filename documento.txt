@@ -1,0 +1,44 @@
+articolo
+    categoria: string
+    nome_giornalista: string
+    data: date
+    titolo: string
+    sottotitolo: string 
+    testo: string
+    immgaine: array
+        object
+            link: string
+            tipo: string
+            commento: string
+    tags: array 
+        tag: string
+    modifiche: array
+        object
+            testo_modificato: string
+            data: date
+
+
+articolo    
+    autore: object
+        nome:string
+        cognome: string
+    titolo: string
+    sommario: string
+    testo: string
+    tag: array
+        string
+    data: date
+    media: array
+        object
+            link: string
+            tipo: string
+            didascalia: string
+    topic: array
+        string
+    modifiche: array
+        object
+            testo_modificato: string
+            data: date
+
+
+    
